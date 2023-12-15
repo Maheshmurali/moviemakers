@@ -4,13 +4,13 @@ function darkMode(e){
     if (e.name =='night'){
         document.querySelector("#mainDiv").classList.remove("bg-slate-900");
         document.querySelector("#mainDiv").classList.remove("text-white");
-        toggleImage.src = "/images/moon.png"
+        toggleImage.src = "/moon.png"
         e.name = 'day';
 
     }else{
             document.querySelector("#mainDiv").classList.add("bg-slate-900");
             document.querySelector("#mainDiv").classList.add("text-white");
-            toggleImage.src = "/images/day.png"
+            toggleImage.src = "/day.png"
             e.name = 'night';   
     }
 }
